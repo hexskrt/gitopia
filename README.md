@@ -15,13 +15,13 @@ Like any Cosmos-SDK chain, the hardware requirements are pretty modest.
 
 ###  Minimum Hardware Requirements
  - 4x CPU; the faster clock speed the better
- -RAM 8GB
+ - RAM 8GB
  - Storage 100GB (SSD atau NVME)
  - Permanent Internet connection (traffic will be minimal during testnet; 10Mbps will be plenty - for production at least 100Mbps is expected)
 
 ###  Recommended Hardware Requirements
- - 8x CPU; semakin cepat kecepatan jam semakin baik
- -RAM 64GB
+ - 8x CPU; the faster clock speed the better
+ - RAM 64GB
  - Storage 1TB (SSD atau NVME)
  - Permanent Internet connection (traffic will be minimal during testnet; 10Mbps will be plenty - for production at least 100Mbps is expected)
 
@@ -71,7 +71,7 @@ source $HOME/.bash_profile
 
 ### Fund your wallet
 
-- Import Your Information To Keplr Wallet
+- Import Your Information Wallet To Keplr Wallet
 - Open Web : https://gitopia.com/
 - Connect Wallet 
 - Get 10 Tlore Done
@@ -232,7 +232,6 @@ gitopiad tx distribution withdraw-rewards $GITOPIA_VALOPER_ADDRESS --from=$WALLE
 Edit validator
 ```
 gitopiad tx staking edit-validator \
-  --moniker=$NODENAME \
   --identity=<your_keybase_id> \
   --website="<your_website>" \
   --details="<your_validator_description>" \
